@@ -2,4 +2,4 @@ swagger: '2.0'
 info:
   title: XSS test for Swagger
   description: |
-    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerroronerror=='alert(1)''alert(1)'>">
+    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src=x onerror='alert(1)'>"><IMG SRC=jAVasCrIPt:alert(‘XSS’)>
