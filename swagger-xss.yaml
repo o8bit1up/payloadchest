@@ -2,4 +2,4 @@ swagger: '2.0'
 info:
   title: XSS test for Swagger
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script> alert(1)</script>"></form>
+    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">
