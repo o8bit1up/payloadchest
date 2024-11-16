@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS test for Swagger
   description: |
-        <math><mtext><h1><a><h6></a></h6><mglyph><svg><mtext><style><a title=\"</style><img src onerror='alert(1)'>\"></style></h1>
+        <math><mtext><table><mglyph><style><math href=javascript:alert(1)>CLICKME</math>
 paths:
   /test:
     get:
